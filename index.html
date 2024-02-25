@@ -1,0 +1,1927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gadgets Hub</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/android-chrome-512x512.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+
+            <p class="newsletter-desc">
+              Subscribe the <b>Gadgets Hub</b> to get latest products and discount update.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Subscribe</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/products/Apple/Apple-Iphone-15-Green.png" alt="IPhone 15 Green" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Someone in new just bought
+      </p>
+
+      <p class="toast-title">
+        Apple IPhone 15 - Green
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">2 Minutes</time> ago
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Free Shipping</b>
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="usd">INR &#8377</option>
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="./assets/images/logo/Logoo.jpeg" alt="" width="120" height="76">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+           <a class="person" href="./assets/public/login.html"> <ion-icon class="person-2" name="person-outline"></ion-icon></a>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Mobiles</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/apple.html">Apple</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/oneplus.html">Oneplus</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/Xiaomi.html">Xiaomi</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/oppo.html">Oppo</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/vivo.html">Vivo</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/laptops.html">Laptops</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/tv.html">Televisions</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/ac.html">Air Conditioner</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/audio.html">Audio</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="./assets/public/smartwatch.html">Smart Watches</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/electronics-banner-2.jpg" alt="" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="./assets/public/apple.html" class="menu-title">Mobiles</a>
+
+            
+          </li>
+
+          <li class="menu-category">
+            <a href="./assets/public/audio.html" class="menu-title">Audio</a>
+
+          
+          </li>
+
+          <li class="menu-category">
+            <a href="./assets/public/laptops.html" class="menu-title">Laptops</a>
+
+            
+          </li>
+
+          <li class="menu-category">
+            <a href="./assets/public/tv.html" class="menu-title">Televisions</a>
+
+      
+          </li>
+
+          <li class="menu-category">
+            <a href="./assets/public/smartwatch.html" class="menu-title">Smart Watches</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="./assets/public/powerbank.html" class="menu-title">Power Banks</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Mobiles</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="./assets/public/apple.html" class="submenu-title">Apple</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="./assets/public/oneplus.html" class="submenu-title">Oneplus</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="./assets/public/Xiaomi.html" class="submenu-title">Xiaomi</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="./assets/public/oppo.html" class="submenu-title">Oppo</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Electronics</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="./assets/public/laptops.html" class="submenu-title">Laptops</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="./assets/public/tv.html" class="submenu-title">Televisions</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="./assets/public/audio.html" class="submenu-title">Audio</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="./assets/public/smartwatch.html" class="submenu-title">Smartwatches</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <a href="./assets/public/audio.html" class="menu-title">Audio</a>
+        
+        </li>
+
+
+        <li class="menu-category">
+          <a href="./assets/public/smartwatch.html" class="menu-title">Smart Watches</a>
+        </li>
+
+        
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title"> INR &#8377;</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+
+            <img src="./assets/images/products/banner-1.jpg" alt="women's latest fashion sale" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Trending Now</p>
+
+
+              <a href="/assets/public/apple.html" class="banner-btn">Shop now</a>
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/images/products/banner-2.jpg" alt="modern sunglasses" class="banner-img">
+
+            <div class="banner-content">
+
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/images/products/banner-3.jpg" alt="" class="banner-img">
+
+            <div class="banner-content">
+
+              <a href="#" class="banner-btn">Shop now</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <div class="category">
+
+      <div class="container">
+
+        <div class="category-item-container has-scrollbar">
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/Apple.png" alt="Apple" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Apple</h3>
+
+               
+              </div>
+
+              <a href="./assets/public/apple.html" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/Oneplus.png" alt="Oneplus" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Oneplus</h3>
+
+      
+              </div>
+
+              <a href="./assets/public/oneplus.html" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/Xiaomi.png" alt="" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Xiaomi</h3>
+
+                
+              </div>
+
+              <a href="./assets/public/Xiaomi.html" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/Oppo.png" alt="" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Oppo</h3>
+
+               
+              </div>
+
+              <a href="./assets/public/oppo.html" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+         
+
+        
+          </div>
+
+         
+
+          
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+
+        <!--
+          - SIDEBAR
+        -->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+          <div class="sidebar-category">
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Category</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/Apple 2.png" alt="clothes" width="20" height="20"
+                      class="menu-title-img">
+
+                    <p class="menu-title">Mobiles</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="./assets/public/apple.html" class="sidebar-submenu-title">
+                      <p class="product-name">Apple</p>
+                    
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="./assets/public/Xiaomi.html" class="sidebar-submenu-title">
+                      <p class="product-name">Xiaomi</p>
+                     
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="./assets/public/oneplus.html" class="sidebar-submenu-title">
+                      <p class="product-name">Oneplus</p>
+                      
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="./assets/public/oppo.html" class="sidebar-submenu-title">
+                      <p class="product-name">Oppo</p>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/shoes.svg" alt="footwear" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Electronics</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="./assets/public/laptops.html" class="sidebar-submenu-title">
+                      <p class="product-name">Laptops</p>
+                      
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="./assets/public/tv.html" class="sidebar-submenu-title">
+                      <p class="product-name">Televisions</p>
+                      
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="./assets/public/ac.html" class="sidebar-submenu-title">
+                      <p class="product-name">Air Conditioner</p>
+                      
+                    </a>
+                  </li>
+
+                  
+
+                </ul>
+
+              </li>
+                </ul>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="product-showcase">
+
+            <h3 class="showcase-heading">best sellers</h3>
+
+            <div class="showcase-wrapper">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/j/z/3/-original-imagtc5fqyz8tu4c.jpeg?q=70&crop=false" alt="" width="75" height="95"
+                      class="showcase-img">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">iPhone 15</h4>
+                    </a>
+
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      
+                      <p class="price">₹72,999</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/Xiaomi/Tv.jpg" alt="men's hoodies t-shirt" class="showcase-img"
+                      width="85" height="55">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Xiaomi TV 43"</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      
+                      <p class="price">₹22,999</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              
+                </div>
+
+               
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT MINIMAL
+          -->
+
+          <div class="product-minimal">
+
+            <div class="product-showcase">
+
+              <h2 class="title">New Arrivals</h2>
+
+              <div class="showcase-wrapper has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70&crop=false" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">iPhone 15</h4>
+                      </a>
+
+                    
+
+                      <div class="price-box">
+                        <p class="price">₹72,999</p>
+                       
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/x/m/u/-original-imagtc4hv5qhegyb.jpeg?q=70&crop=false" alt="girls pink embro design top" class="showcase-img" width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">iPhone 15 Pro</h4>
+                      </a>
+                  
+                     
+                  
+                      <div class="price-box">
+                        <p class="price">₹1,27,990</p>
+                     
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/s/t/-original-imaghxengzjc2djt.jpeg?q=70&crop=false" alt="black floral wrap midi skirt" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">iPhone 14 Pro Max</h4>
+                      </a>
+                  
+                    
+                  
+                      <div class="price-box">
+                        <p class="price">₹1,27,999</p>
+                   
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/61BAuSC0UnL._SX679_.jpg" alt="pure garment dyed cotton shirt" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Oneplus 12</h4>
+                      </a>
+                  
+                    
+                  
+                      <div class="price-box">
+                        <p class="price">₹69,999</p>
+                      
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                </div>
+
+               
+
+              </div>
+
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Trending</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/41tXf+ETfoL._SY300_SX300_.jpg" alt="running & trekking shoes - white" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Oneplus 12R </h4>
+                      </a>
+            
+                     
+            
+                      <div class="price-box">
+                        <p class="price">₹45,999</p>
+                      
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/m/p/y/12-pro-5g-rmx3842-realme-original-imagxgnhafyjz8rb.jpeg?q=70&crop=false" alt="trekking & running shoes - black" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Realme 12 Pro </h4>
+                      </a>
+            
+                  
+            
+                      <div class="price-box">
+                        <p class="price">₹26,999</p>
+                        
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/t/u/-original-imagxhd5xtjuwnqz.jpeg?q=70&crop=false" alt="womens party wear shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Realme 12 Pro+ </h4>
+                      </a>
+            
+                      
+            
+                      <div class="price-box">
+                        <p class="price">₹29,999</p>
+                      
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/q/f/-original-imagtyw2vfzzwzgs.jpeg?q=70" alt="sports claw women's shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Vivo V29 5G</h4>
+                      </a>
+            
+                  
+            
+                      <div class="price-box">
+                        <p class="price">₹32,999</p>
+                       
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+            
+              </div>
+            
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Top Rated</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70&crop=false" alt="pocket watch leather pouch" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">iPhone 15</h4>
+                      </a>
+            
+                     
+            
+                      <div class="price-box">
+                        <p class="price">₹72,999</p>
+                        
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/s/y/5/-original-imagwu894yyhyyce.jpeg?q=70&crop=false" alt="silver deer heart necklace" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Redmi Note 13 Pro</h4>
+                      </a>
+            
+            
+                      <div class="price-box">
+                        <p class="price">₹25,999</p>
+                       
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/u/f/b/-original-imagtcnufgp5ffxc.jpeg?q=70&crop=false" alt="titan 100 ml womens perfume" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Apple Watch Ultra 2</h4>
+                      </a>
+            
+                    
+            
+                      <div class="price-box">
+                        <p class="price">₹89,900</p>
+                      
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/i/h/c/-original-imaghxemmqyahnuj.jpeg?q=70&crop=false" alt="men's leather reversible belt" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">iPhone 14 Pro</h4>
+                      </a>
+            
+                
+            
+                      <div class="price-box">
+                        <p class="price">₹1,19,900</p>
+                      
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+               
+            
+              </div>
+            
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT FEATURED
+          -->
+
+          <div class="product-featured">
+
+            <h2 class="title">Deal of the day</h2>
+
+            <div class="showcase-wrapper has-scrollbar">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/1/i/x/-original-imagtc6fhhtqjnr9.jpeg?q=70&crop=false" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                  </div>
+
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+                    <a href="#">
+                      <h3 class="showcase-title">Apple iPhone 15 Plus (Blue, 128 GB)</h3>
+                    </a>
+
+                    <p class="showcase-desc">
+                      Experience the iPhone 15 Plus – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot.
+                    </p>
+
+                    <div class="price-box">
+                      <p class="price">₹82,999</p>
+
+                      <del>₹89,900</del>
+                    </div>
+
+                    <button class="add-cart-btn">add to cart</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          already sold: <b>20,000+ Units</b>
+                        </p>
+
+                      
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                    <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Hurry Up! Offer ends in:
+                      </p>
+
+                      <div class="countdown">
+
+                        
+
+                        <div class="countdown-content">
+                          <p class="display-number">21</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+
+      
+
+
+    <!--
+      - TESTIMONIALS, CTA & SERVICE
+    -->
+
+    <div>
+
+      <div class="container">
+
+        <div class="testimonials-box">
+
+          <!--
+            - TESTIMONIALS
+          -->
+
+          <div class="testimonial">
+
+            <h2 class="title">testimonial</h2>
+
+            <div class="testimonial-card">
+
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKEAAACUCAMAAADMOLmaAAABRFBMVEX6+vpRVIn4oof5ooZze7ocGh3///85NDDxjncAAAD6//9vdrRaXpb/p4tVWY9qca1kaqT4noFKTYVESIL/pYb4mnxterxAQ4D/poMAAAi/fmovKykmIyN8QS3ql3369fPw8PS1tcifoboNCw5qSUAADBTGxsffj3Wtc2NPNzJeJQ9lLBfBd2BxNyP5zcD55d/5q5L51sz5wbHJy+JlcrjGkp2Mfq/d3eRjZpSKjKw4TIvelIbAwNB/h8DV1dWysbShoaJxcXFAP0BeXl6Dg4NMS0wsKzKSYlPRinR6VEhALyyaWUSuaVKLTjq1o55LDQBUMyngua94JR7Wf2lrAACQWFSiUUKKQDVzLCqtjYqabmpbAADvr5+5fI6Llsati6itstO5qbd8ZonNj46RcIeXf6N6fKJqW4W5gocyNXnxhGfQgn9ncaP1AAAK/klEQVR4nO2c+VvaXBqGs8Api0ESkgCKAUHE1gVRFmsUly7aT/1mxu5Tq464Tfv//z7vycYJhB09XNf06dUWA+jd513Oe5JQhvmjP/qjP/qj/1MhhPBv+HMiBVy1+uLe/t5ivZ5hJo8Sofr+wWEuaGj2zdv92mQxIlQ7eB8M5vyplB8rF8y9OKhPCKORdvWDYC41+wLkdxQMvlvM0GdEmfre3t6+P2fggVJNRHDyzSJlHxHafzfrz+WC/heOZglEf9L/lqqNqH4IqYeVekGIRIRY1+khovr7nA0y+6KDi+DwHjVAdOgAughTfjeif5+Si2g/2MRIdSaESC/SQcy8yxEUHRMRu3hIpVzQosurFBHn2TbEPSqEe0k3RqqzicEDCoAMQ6RhHn6RPraamHtXo0H41iFMHs28NA1NpbyLhU5TdAhzS4LAHQXzREK2mkinmm3C/BHPcZxwvODPN6smZQZ/MghTGibkBG5mIWkzzRqERw4jHUKrUvILAmdK4I4Xgk3f/PkZbSE5AYTBGZ5zJBSOXvrzFiWwr3/I0yNEe+aSkucIQiPYR38lk8ZzqRlBe5mnVsto8b1plAvQYNSOP/yVDCbzSb8mLBnVflijQVg/NHrhUishhoT2c7z04cMC5OhLTPgm8/yAMDm8waFMHbcD2pQYVFiAMAff0gBk0EESB1kjcFxs1hdH8KocnQnRmA/zR4DCayunJyenK2a8+cIJaMUmnAHCFJ0BEdVwuzkWhMLp8qtXy3NnZwUTqnB6Mvfq1epJQbAIYT6kAQiIQX/uJQCuLi/PnR5rmtBMQW3lbHl59VgwCYMHtLYB75JJ6HiryycfeVBLpRTOANEipLQLMBJREFZONacs3LVcOJvTMGFulg5gKJ3+O7gk8EZwPXoibt0rQLiUDFLZAzChNW5d+2Cx8Cuay0ZeOxatA8JSkE67ZooKz/GC5V3hH68KLsTj5eWCTfjPf6VpAIbWRNKz1dUzF2FhbvXEeqqgyfxGMfT8hBsEIV9YXV0lCQUgPNPsZzlOvHh+G0NrShNIO5ubOyM91Vbn5k404oBSfH7CIkHICdCuyXLmOc1dOhQIGYYk7CWeo0AYWvfsgd4SL54fkAmVBjBRLD1/LTNMehATqXREpiT2i6is0bAQI66LYm88iPE6JUDoOCWzb4tigesMK4oUVpQmpJGMonJ6XroAFBHPifgvzhoXjS9K9PicpUX5+OlvhIqltQ3QWqn4+YtZ6DxfLJUYig4yeMQxAql9Pc8gR4vnH82YixehEF0+3HPMal05/5y2AevfvlhlrlDpgy0ypzCcid9gDkQonfn+46tilY1Cpw+6FCqaNQGI3z59/v79+7+//fgSsCzk1yeA0FlaFKXw5fzTjx/nXz/aDnLiBm06LGeU5UVF0QoFRSSWGhozV5tCRadV4+ZH8k2GhYB40WE1ESnNC+1Kt51usFbjSQGECcKLUFynuRq3aq19mAUHJwgQV0tLLtLYfnZVKL1B8vHcJKx2pBCCilacbBQVcdIAN2sodBEI4GYtikoAhEKh4gTFebNcTaytBwhppQvl5yXxkiJNXrSpqj5dCbikiLqvfO2cNtzgFXrrC9oBQPUq4SbkEndw1L4QtaHw4jo1wuuyD7SruwnlioqPmoglheepnLhhcBGbgD614g6zXsWE6iW+iyV9ARsskQodQpkdE9CnVjmxySeaFvogFWH3AhMk/8xbZnzDXqa2k72PxePTJqGv3JBhijWLhON11TrMxuNb/5GBcOP5CPHdrjvzr7ekeExiWTbqs01MNNcUuWoRhiMsK91gwovM89yICIGtAR0bM+iwIj4bUZcdwIpt4TRrEcqN+2ztOe4xzmRZSbLhTNlhVq9sQl63LfRFbUKei0nS1nztqe//mpfibKuaYdashZm/sgF9U/gVt5gwgR9BUs4/KWM2JrUBslNOmCuyZaF9xBfGFm43DMJb471SbGvn6RCzsXY+SMSwTXhnWpiwYgxLDQQ58vCIASERt83XS7Es8zSMaL49wi2JaEYZr3dg31WDkxOyIMgGICTigx2A+P2T3JaBap4OEokYZY1ElPUIMO82FIvMlvzopEhs6ykQ0WuPHCQTMcxuPxqXUG6lKfBT5Fsk6823SE+AiHY6AbKsmYgRVmKBUG7gwKtXSishL982v4Ukjb9e7jsTRu3Ot42b9g28MKJWdUUUW00kvoUkjdnFzllohTls/Nhb2SrZaBWmMUXpbOLYA41edyHEYY4YDyK6bD540LCBXEucOfJN40b8bxdACHPU+qmPj4aFEO62NHSXM4sreozLS8deaBGG7UdbxjLHbhfaStnUDYkYfz2+1o261AkObsRhtcx8CLQVimFis20blmfHBliLsP0p6oRbERWlnRHaOflyaX5cJma7WkgSWlF+bG+HFmLDRTiunpPpHmRC0xZhoEMeGoiunjOWVOzaDL0JIciiVyIagSZzMfZ6DIAMynatZA9CmFp1pa1jO4g324SL41j+UKTfIDcJI3qgUypC537cJpbozOiAta7t2pvwodCRD5TQm41Ruh/ZROQ9W3cnZH93SEPHRqdgYqO3nK2+ASNNQrbRIQ1tNbNx1AW6/3aN9yxOHkanqxVdExVZFL3LWhYerfyO3Y9oYd/tmvRwKox3UtWrSqXR0AtaQdO01kkHivrW3HvHR6vn/tt1C6Gx3cObqirWzcNtOyL3e2oKvyMyypQzSJCJKE/Ze1RrHxiOQBtvH8lk7gqei0qj9O0eg1efhOYpJq+pUW7A9jocHaFYegxe/RJOGyfB2uJsZOMVIF72JumoASzsRogPSh5xxowV1Ve+HNZEtNP/goIrxU7aKZ8HIfugexHyCYy4OSRi5438gITGE9Ktp4l84qrs2x22nvtfULoS2rO3t4k8d6eqw5k4UK/BediL8MbbRFnH1w2GIpwfJMi9CVmp0SnOanm4D24OlIb9EHp2HKwycZFtAGW2xkzoubIYJt6pviEIUW0Qvj4qBfTgbaLcgDAPgbgzSL8Grl6EMG91MlEfqiV2P6HkQRhunn0IewDGdmANlbzzUK+qg68rmc2pgdKQJIQZttmu7bUwvlOTpA5rH7TE3cygDm7C0DE0Ic5KE7C5M4BRdT7eoZxlGCAGTUR0HTYM6L9puwlNRvLfiIdpGNk9e6Lc8A2+rFyaF0bC0Sm2PzUrxZb7rZgQZePt07aBeDdwR8xc2le/wtP9MbYTumUQMvdxTxMTlUEJUW2XqMa+MrI1yl6EDMrcs+MibO1pPY3sixAj3noTDpqHrYRQNT2MnJru/nx83vy3Z+5/ehDeDVopaLPchki2juEJDcS2QHPVgfth7dJXVp+EEMrl+m7dzSjr4SGGm9p1VVWfgpBBaLda4RIEpFwpD7EPQMXA7zs345gIoQ7VcrWiywmH8m6obUDpVyAQeKz6VHXchLiZldUyPrXT0HWO06+uh+BjmDVM+Cvw+6cT7e6EPWqdJATES0hzFctXrZaHAzQJsT7iaGPIrg2vNyEZSJTZ3C0btVgu7w65XQ5t/DJPR4vYyZ8Q7e6E0R6EsaybA6Ha9eXu7uV1bdiLFqGLgH0PjXFrZuN6d6yE5n9HyIxwp5Dr46vgo5LuvrUanHBkXZD3gosBLd39VBgFQveHBsX1EJo0D1sIN4CwGwEFQved6sra5BG67/dXSqMSjuU6YzfCItOdsNf8OH7CtIuQF9OTTojvtp2wKLsJjY89jeShNOr1sTa5Ps1vflr/mQn/B5shc640yK4yAAAAAElFTkSuQmCC" alt="alan doe" class="testimonial-banner" width="80" height="80">
+
+              <p class="testimonial-name">Alan Doe</p>
+
+              <p class="testimonial-title">CEO & Founder Invision</p>
+
+              <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
+
+              <p class="testimonial-desc">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum
+                dolor dolor sit amet.
+              </p>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - CTA
+          -->
+
+          <div class="cta-container">
+
+            <img src="https://www.oneplus.in/content/dam/oasis/page/2023/in/home/oneplus-ecosystem/largecard.jpg.thumb.webp" alt="summer collection" class="cta-banner">
+
+            <a href="#" class="cta-content">
+
+
+              <button class="cta-btn">Shop now</button>
+
+            </a>
+
+          </div>
+
+
+
+          <!--
+            - SERVICE
+          -->
+
+          <div class="service">
+
+            <h2 class="title">Our Services</h2>
+
+            <div class="service-container">
+
+              <a href="#" class="service-item">
+
+                <div class="service-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+
+                  <h3 class="service-title">Free Delivery</h3>
+
+                </div>
+
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Next Day delivery</h3>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Best Online Support</h3>
+                  <p class="service-desc">Hours: 8AM - 11PM</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="arrow-undo-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Return Policy</h3>
+                  <p class="service-desc">Easy & Free Return</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="ticket-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Cashback Offers</h3>
+               
+              
+                </div>
+              
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - BLOG
+    -->
+
+    <div class="blog">
+
+      <div class="container">
+
+        <div class="blog-container has-scrollbar">
+
+          <div class="blog-card">
+
+            <a href="#">
+              <img src="https://images.macrumors.com/t/SxOgepOaWV57bZg0NVnXex7z1aI=/2500x/article-new/2023/09/iPhone-15-vs-15-Pro-Buyers-Guide.jpg" alt="" width="300" class="blog-banner">
+            </a>
+
+            <div class="blog-content">
+
+              <a href="#" class="blog-category">Mobiles</a>
+
+              <a href="#">
+                <h3 class="blog-title">iPhone 15 vs. iPhone 15 Pro Buyer's Guide: 35+ Differences Compared</h3>
+              </a>
+
+              <p class="blog-meta">
+                <time datetime="2022-04-06">Jan 06, 2024</time>
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+          
+            <a href="#">
+              <img src="data:image/jpeg;base64,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" alt=""
+                class="blog-banner" width="300">
+            </a>
+          
+            <div class="blog-content">
+          
+              <a href="#" class="blog-category">Mobiles</a>
+          
+              <h3>
+                <a href="#" class="blog-title">First Impression: OnePlus 12 Phone | Makes an Android enthusiast’s wish come true</a>
+              </h3>
+          
+              <p class="blog-meta">
+                 <time datetime="2022-01-18">Jan 15, 2024</time>
+              </p>
+          
+            </div>
+          
+          </div>
+
+          <div class="blog-card">
+          
+            <a href="#">
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgSFRUYGBgZGBgYGBgaGBgYGBoaGBgZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHjQkJCs0MTQ0NzQxNDQ0NDQ0NDQ0NDE0MTQ0NDQ0NDQ0NDQxNDQ0NDQ0NDQ0NDQ0NDQxNDQ0NP/AABEIAKgBKwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAECAwUGBwj/xABBEAACAQICBQkFBQgCAgMAAAABAgADEQQhBRIxQVEGUmFxgZGhsdETIjLB8BRCcqLhFRZTYoKSstLC8QcjMzST/8QAGgEAAgMBAQAAAAAAAAAAAAAAAAECAwQFBv/EACwRAAICAQMDAwQCAgMAAAAAAAABAhEDBBIhMUFRE2GRBSIygRSxcfEjQlL/2gAMAwEAAhEDEQA/AANSNqwrUkSk7ZxgUpIlIUUkSkBHE8ptHrTZGUW19a6jZcWzA3bZh6k67lZTvqf1/wDGcyac5maNSdHTwyuKsH1ItSEakWpKaLbKNSLUl+pFqQ2jKNSLUhGrFqwoAfUi1IRqxasiMo1YtWX6scJChg+rH1YRqRBIUMFdMpXqwysmUGtARC0WrJ2itACGrFqyy0VoCK9WK0stFaAFdorSy0VowK7R9WTtGtARC0a0stFaAFdogktVCZcKdo6AG1ItWElJEpEx0DlY2rLysjqxDPXykjqQopIlJ2bOKCFJEpCikiUjsRzXKSlcJ0BvlOXelO30zSuB1H5Tna2F2zNmX3G3A/tMZkyEYJCK6WA6z85WizNJJGmyK05MYcwmlTluJqumqF1B7t80Vs9ZhtI6BKpSURtqPLAxhT0SQwjdEkdIVRzD/QnpG/atUbVX/wDNPSVPICnEX2NuiL7G3RLKelydoT+xPSdtySwVPEUnepSBs6qhtq5Wu1rWvtEz5tUsMXKS4L8UPUlSOF+yHoi+xt0T1DE6DoDZTXx9fq8ysVoxR8Kr/aJlh9UxS8m6P0+bVpo4X7G3RHGCbomvj2dDbVUf0J6QJsc/8n9iek2R1EZK0C+nzfgz8XhSFvltEB9kZq4vGuylSFtlsRR42mY9c9HcPSWxnZRk00oPkj7IxeyM1tCaNeu1yQiD4m1V7QMtvTuhGlfYKdWklgMixJJJ6ibSDzRTpcscdHOUd3Re5g+yMXsjCXqcAB2CUtieruEsUrKZYnHqQ9kYvZGN9rPR3COuKPR3CFlTVC9kYvZGWLifqwly1hw8BFuK5TS7AhQyOrNAEH7ogjCTUrCMlLoUESVOnc2jsJOibHskyRcEAjNGLSJMi5WSSEZExXiJiGMZG0cmNGI9rKSJSFlJEpOtZx2gQ05BkhZpyLJHZGjD0qmzqPymO6Td0wuzqPymG52ynIrZswfiYekadlH4vWC0lhuk/hH4vWCUhM0zSguiso0o1mX8H/N4VRgmlT7y/gH+bzJkFk/ED9p0RhVtxkWfokASTYDM7JTRRFBlGux2Bu427zPT+TtM0qCI2Ttd3G8FtinpCgdt5xGhdHCmwqVbFxmibQp3M/SNy986qhijtJzO39ZyvqDU1sj+zq6P7eWb1VwYOSBtz4QWjWv9bZOqxOc5ChXB6HFG4mZpXDK4Jtc+ZnGYmiVJG6ehM4O766YFi9Dq4LHv4To6XNt+1lqSXDPOqym0I0Roc1XGtkozY9A2zoK+hWXO2/Zw6OvjNPRuC1aVV+Gqvfdm+XdN7z/bUepCWkx2pzd+EZWmcWtJRQQBchcDcNw+fb0Tlaj74RpDEl3Zz95iey+yUYGgarhBvMvxwUI2/wBmLUZN0tq6di/RmiamJbVUZb23D1nc6O5KYegAWUVX4t7yj+nYZo6PwyUEFNQL294+Y+ts0FphRdsycwPm05mo1k5Ooul7Dhp4rmStmDpXRvtE1dVQNw1QB0WUTzzH6JemxDU2HA2JU9R3z14vc8TvP1sEki3yXfv3noWLDrZYuvKFn0scsfDPJcHoyo59yg7W2+6bDrOwTp9H8jcQ41ilNPxNc79yg8OM9Iw2jQFDP7q3yXMljuGWbHoEOqhVHv8AuqNiAi5/ERsH8o7T92WS105K0qXlnJyaPG3tTbPNcfyTq08O9YuhVVe4CkX1duqd4OwHfOCcT2blXiWfDVr+6oRrDyFt3n1Txppv0GZ5ItvyUz06wcLuUNEsk8rY2nQ7ECy8RMG9oYjUMiOy8mMd3TKdc27Ymc2Hb5wAtJjXlOuYtcxiPocpImnDSkY050txzaACkiyQ405Bqce4jtOZ06nw9R+U55xtnUcoUzXqPmJzrJkYpF2LhUc/pQe6vWfnBKUP0wtkTrPm0AozNkNUQ2jAtLEB1/B/zeHUZVj1W6s2Z1ch/W+3gJimLK6RlJTLZ7F5x2dm8mF4esqfAPe3ufi7OaPq80NEaCq4o6wslMZF2+EfyoPvHoE63C6EwuHtdQ786pmb9CAG3XYTLlzRiqI48blz0Ry2AZmzUM3SAW8pv4PCVTb/ANb9Wq3ecpupiT91MvwOB/nJ+24pbqBHr/lOTlzN/wDWjp6fFFP8rZVRwLrmykdeUesMrXX665ete3wMR0bu7Z5mU16hPxID0gWP13TFTbs7mKTiuhmOGvfWX+4eU08MbgEm/C2wdXEwJqCMcsvroJmjgsOo2uAOhST4yyUklxwy3LmTj0fwQxFAsLAXY2Cr2yjT7rh8OaQN2AJY8XcZjsF+8TTxmlaVBGK/FvY2L9m5Z5nyh0wazao+EfXb1zZpYuXT9mVSle6fCXRHPV2m3yTsrM52jIdHT9cZz9Zpq6McqAOJnVyr/jop0yWTUc9EeiYSsFX2jf0jifQRmxRYkk9ZnP8A2stbPICw6p0mgNHNUs7ZKM7nKw3mcacK5O1mxRxR3yDMDhHqGwGXD19J0eGw6U7hQGcfEx+FOhjx/lHgM5Sa6otlOonEZO/4d6r07TutkYDXxZZcyERd17ADeSd31nK9iXMuX4OLklPM+OEaFbHAH3PffYXOQHQo2KOgXOWd9sy8XilT3na7HYBmTx1QPobyBM/EaSPw0hb+cj/FTsHSe5pgY7FhbknWY7STfquflu3ASawym7l8Ini0/wCv7J8otKs9N1+FSttUEZ/iPyGXS08/aauPxjO1plNO1pIbI1VHP19b0l4KnldSWPK6npN3Y5xSY0c+kaQGLd9cI7bF7fMxbvrhEwyXt8zACsfXfFEI8YH0+UjGnCtWLVmzcYtoGacg1OGlJBkhuFtOU5SJmv4T5znWTIzreUVK5X8J85g+wyMnKXCJY1yzjtOrZU6z5mZlGbWnwgZFbpNr2vmd8zWprcFMgdoJ2EdMyzyRujQXUZq6J0D9pqa73FKmo1zs1jrOQinjbMncOsTNSmVtcbcx0zfTHlcMlFTtLs1uGubDrNh4dImfIrXBHNJRjbDsfpdQBTpWREGqCosABuQbhlt2+UxxpbVyQD8X67T5TKdnquKdNSzHIKouT+k6fRnJPVAauwLcxbkDrIsCeozmZ5Qxq2yGLdkdv47AdLSDt989QsIdRxj849tptLhUQWUBf6LeIe8rdfwN22Pc4N5y55tz4/s6+CNdkwJcXf4gD07DIvUBHusR0HMdkurUE3rqnqK+Vx5QKthTa6nLp2d4ykUk2dbFt6cr+iqtiXHA9R9bwCvpNxlYxsSjjYD5zLxDVOaZsx44vrRdK0uGmV6SxTsp1msOEw6jgQ7FpUI+EiAjBMczkOM6eJRjEwZnNvhWDIusZq4Q52GwQFyF91czvPpNTQ2ELHzjytbbZPRLbkr5Z0ehcAajC/wjMndOxbGqqhFHuj4V51vvt0cB87AY1FRTQIBtGfVuXt39XTIPitS+fvn4mysvQOn/AKzznNit7tf6OrqX61N9F0Rp4jF6pu513OxeF9lznqjvJz27gsTWJ96o2zNVGVuFhfI9JJO3MDKZz6QC/Dtz945k8beu3pgbuz5kyW2Mf8kcWlb5ZfjdIZaq5Do+s5hYh2aayYW8vTR990issYmuWCMUchUotfW3CCGdvpHRwWk7EbFJAnENOlpcm+NnlvqUFHIq8FbSt9naJNpB/SbexzCg+nnGjn084hEA+r7t+kfOJhkv1vMPYKbOGULqgametcLYrq9Jub9N4Gw91e3ziAoAjxyI0YH1hqRtWcX++FfmUvzD/nF++FfmUvzf7zV6UzB/Ix+TtCkrZJx/74Vv4dP8/wDtGPK+t/Cp/n9YelMP5GPyanKKg7KNTVDWyLAsBnzQwv3zy/lDyhxNN2oqqLYAF1B1jcX1l1jkN2/rnouE049ZSXpoCDYWvstfeZx2ncIuNqOqgU6tEgEfEGRhrKbZEjM9RvtlOXcuDRjlGStHAGsz2LG5F7ned9zxOdr7YVRGzpgeKoNSqNTbaD38IdgUF9Zt275CUMtaOhSmrKpdtUKoA6z7xytcmxWWezJp2QEsx1UG8lnYDtz8YN9nB95qiqd9wdUHmg7SeybHJvB2qDEG2qqFVIJAZizXNmI2C+4fFv3RyZI44bpFWTG8kdseXZ0vJ/Q1LC07sRrn433seYn8g8dp6CKultyKFHVme2VNilJHvWI2Bh5A+ckcU33gGHUD5zzGqzucuFwadPjlD8olbaSc7bH665S+IVviXtH0Jay032DVPR/qfWDvhG+6wbtse47eyZ0k/Y6+J4pcPggy81uz9P0glRiM9UX4jI+EIakwyII6xGNO+3xlkXXc1xjBdJGbVxQG1e/PzgVbSKD7s230YG4SluTynbbzl0MmNfkNyiu6OT0lpj3SFQDZmReYFSo9Q7z5T0TFcm0CnLPL64yujoNRuAHcPWb8WpxRj9qM03u4b49jjMDodmNyJ2OjcAKYGWfDp6YfSwqr8Iz47h6TP0npdKIIWzvstuHXwHifJSyyzOkXYobfZFem9J+wXI3qN8I4bix6BsH6Tkhj2JzMjiqzVGLsbk7T5AcBKqVO5zmrHjjCNF++cpqjZwrs2wXm5hMGzZk26s/HZ4zM0eVW2ajtE2ExyDaxPUCfDITNkavpZ13Jxgkupo0MKq9fef0hGoBns8T+kyH0i5H/AK6R62Nh3D1mRpEV6g99jq80e6vcNvbM3pym+Wkjn5cjXL5CuUGnaYRqCe8z+4xGYHG7b+od84gyeIYCoqjdfvsZWZ29NhjjhSPNavM8k7fYraQf5iTaQf5iauxkKP0846xj6ecdfSIAzRtIM4DC4sxtxIUkDtIElRLO2qcxvFsgBe5A+7bblwgiOQQQbEHI9sIq6RdhqltvxWCgnrIFzAAMmQMkxkYAe5jAKR8DAE8QD5+kf9nqAdZT2kHxm/8AZ1tkB3SZoLvAPhNXrM538Y5n7In8w7QeGzOR+xDhYdJHledN7FRsHeSR4yS0k3jwHrIvO0C0lnN06y0VNzkT0WzsBmem3fOL5SPTWoK1NirtcPqudZ1bI3ZTlawtnbLone6c0SKxHDVAK2y2k53JvOdx3JkMu2xGzYR3CU5HGXN8mzDicVR53qXJObAZgnbt3whCV278+yG6V0d7BwjEEkA5ZDO8rQoFuykkk2sQLDiLg7/Iyqr4JvjqW6+vqhjs2nr4CdnoLF0Fw6K76j3fPMZa5tc2t3zlsIiOCFBB2kM3vdYO/wCsoNiWPuqDnYjaOe+7fK9TgWWG18Bjy+m9x6DUpZXUh1OYK2N+nV2doPbKVqMPhOXA3I79o7QZxOHxlak10cgH7uqSD1qd/SJuJylUAe3QBjvXaOk7x4mcbLopw7WjpYNdhyfbLj/PQ3ftI+8LdO0d+yXJUB2HLpzHeflMvD6TovmrjtuD8ie2Eq6cV6wRfwsfGYpYq4aaNnp4pq4s0UqHce4kD5y5CT/0D42mYKiD7x7/AFYyX2umNr27j85B4r6C9BLozVDbiR4X8pIuoGZNuN7D0mBV07QTa9+ot5XmbiOV6rf2aZ8bW7+MlDSzl0TH6K8nV4mp7psoGzMjLb5dV5g4/S9Gl8b3PNU3Ph55TkNJ8oq9RSC2qvBcvGYJN8zOlp9DSubH9sOErOm0hykep7qWROAtrd+7smRr3gSQhDNixxiqijRjm2XAyar9WjIRLlAkWzbDHu7h+CoA7b9g9J0eBpIuxDf8PrOZo1WGw+JhtPSDjZqjpN/WZpqT6GyWJ7OtnVgX3Bekm57hOS5S6cRAadE6zHJn3L1dMpxrVqo1S7au8D3V7ht7ZjVdGncD9bJLBgipbpu/Y4+qc4xe1UZdAEuCenyMmYd9hK58Bf6+uEAnVxyUlwefyxafJEyLfMSZkX+YlpSDts7ol2RNs7pGICRP13SJj/XjGMAIGK8cxoAfUIwq84fXSYR+zha7Gw3b7wcpJKWU3DMO2Z1lfcueNdib4IfdjPhDf5b+2H4bHXyf+4bO0bpfbgRbvEtU0+hW4tHM6U9w6vRfxMxKlY5zX5UVdVwP5B/kROWxONChm4AnuvJyg2kxRlTZynLJtaqn4F/yYTCHwjpA9fn4TRxOJOLdcglvc52xjnuhSaAye9TNEZxZNuopa23K9oRcU0Kab5RiLIYisNZQSAAtj8N/iY7DbjJhotUHaJdNWipe4O9fmvl0lB5GQ9p0r3rDAi8BJBV4DulTgOo+AZMY42OB2pE2Lcm5e/8AUsLCLwHdHZAMrDwkXiXsTi66cAH2h+f+cesXt25w/uUw/VXgI+qvARel7ImpvyzPGIbnDvSI4hucO9ZpBF4DultLDqxsACeFsz1Q9NeEP1H5ZiVaxtm2VxexW8HarzSbdNrzp9I6JdaZY0mGYzKEb+qYjYUjap7jHtSD1JeWBCs3O8o/2hud5S8oBwkSBwi2rwNZJ+X8lf2p+d5SQxj87ykrDhFYcIbF4JLNkXST+RDH1Bsc+EsXStYbKh8PSV2HCKw4RbI+ES/kZf8A0/llx01X2e1P5fSR/a1b+Ify78uErsOEaw4R7I+EQeWb6yfyWjSNRsmcm+73cxvvK41hHvGopdCDk31dikHHmJKM3zkhAzbO6RkmkYhD/XjGMeM313wAiY1o5jXgB9SWkgIhHEwmwcCK0cCZukdP4bD/APzYhEPN1tZ/7Fu3hHFN9ERbS6mHyue1QD+Rf82nH4ut7r/hb5zV01p+linNSiWKqqpdl1bkEsSAc7e8Ns5zE1RqkX25d86+NVjSfg5zdzdeTn9F4wo/wg+8Tt6Z02H0ozu66gGtTqgm5/hOflOPpPqOQeNx2zoMASyvUUEkIyiwv7zqUF/7ieyZaV8mnsYwaSVocmha52J+ZfWSOha4+5+dPWWuS8le2XgBDQijTQj3qqJwFix7bbISugsQdlM/3J6yqtydxABYUxvJu6eHvSMpLswUH4NCjjKCOjqE9wJq3Y2LLYMWB3H3j12ldeulREpl6Sahcgi5Yhzex2dfaZzeq+zU8R8jJqH3J5esr6OxqCuzXbDp/HS3UY3saf8AHTuPzmT7KpzD3j1jim/8O/b+sluJbTU1U/jJ3frLaGK9ifaU64DAHYF1rEZ6utcXmMaFT+H4j1jrSqfw/Eesi5WNI28fyjd6ZQ4is2YOqUoBculRec5WxznY7nuHlLMVhqmrdkIGW8esD9m3NPhEDL6ZBGbgGSsvPEG9k3NPfF7JuafCOwCbLzxJaq88fXbBPZtzfKN7Nub5QsAuy84RWXnrBRTbm+IltHCO2xfED5wsCbW3MD1H5Rry9NGvzfFfWI4NxkV8R6wtBTKLxry44R+b4iROGbh4iO0KmV3kSfOWGmeEgRGBSwykJaaZkdSIRE7ox+u+S1YisAIGNJESNoAe9aS/8gYGjcCqarD7tJSw/uNl8ZzGP/8AJ9Zv/r4ZUG56ra3hdVv2mecITusvUM+85yxUF7m5PTIRxRXuTc5P2NvSHKTFV7irinYcymNReo6uqCP7oDRwxOxQOljrHuFh3iVK44WhCVJcnXC4I7U+poYJCoI1r3N72sBkBs7IbTpC/T4d2yZtKruFyZt6O0Yze876g4CxP6ROT7skopEloptKgnptC6SruVe4Ad8MTRFHfUc9qf6wj9l0ee/en+sqbRMGDr+I8N3bJo4J3cQBsEtOjqCj43/uX/WD1XpL7qFiekgjtsBIMkmgp6igXc9Qzz7N8Crqa3uAWB3D/l0QQOGN2OzK5vl9cIXRx6ICqiw43zPC8Kod2WUeTFJcy2e87uoSJ0HTvv8Arylq47+bsvs/WTTGLa+3f0ROxpJFH7ApkXuflDcJybpW1mJz2bO+V0sTrm5YWHd1QypjFRdYm53Z7zsi5E6A8VoSiCFVjlmdnYJZgOTlJrsSfD6/7gv2ok/FtNznNnD4gIoW/X84rZKkYnKrQdNKBKk31l87TilwK3znc8q8XrUWAN7Mnnf5zjPaSUXwVyXJA4FOJkTgklrVJFqgkrI0ROAXpiOj0ttjrW6Y6Vt0LCij7EvGOmFANwTeXPUEqd++Kx0FgXErqJfbBFxJB2y04kWjoVkWQiQZYSrKd5jGmnE98dMLQC6QZ6c1DQTie8ekY4VdzHwMasizINPhIMltoh1agV6ekSmwjsTQMVkGEuemJS4MYithK9WTYyEALQ0mHiikhFiNCaKx4o0BoYarq7NvHfC/2mUGtttujxSykFhCcsao+9LByzrc8xRSG1BuZIcs63Pbvk15aVue3fFFJbUG5lg5aVee0kOWT72J6xFFFsQ9zG/ezO9lvx1F9JYvK62dlvuOotx1G2UUUWxBuZYeWrn7x7ov3zbnflHpFFD00Pcxv3zPH8o9IzctG4/lEUUHjiG5mRp3lMatPVbP3lOwCYY0ofoRopHarE5Mn+1T9CL9qn6EUUNqFuY37VPGI6VaKKG1BuZH9pno7pH9ptFFCkFsY6TfjIHST8498eKSpAQOkH5x7zIHGvzj3mKKIQvtr8495kkxrXzJiigBecQZS7RRR0hlDNK2eKKVsZUxkYooAf/Z" alt=""
+                class="blog-banner" width="300">
+            </a>
+          
+            <div class="blog-content">
+          
+              <a href="#" class="blog-category">Televisions</a>
+          
+              <h3>
+                <a href="#" class="blog-title">What is OLED and what can it do for your TV? The 3 Best OLED TVs of 2024 </a>
+              </h3>
+          
+              <p class="blog-meta">
+                 <time datetime="2022-02-10">Feb 10, 2024</time>
+              </p>
+          
+            </div>
+          
+          </div>
+
+          <div class="blog-card">
+          
+            <a href="#">
+              <img src="data:image/jpeg;base64,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" alt=""
+                class="blog-banner" width="300">
+            </a>
+          
+            <div class="blog-content">
+          
+              <a href="#" class="blog-category">Electronics</a>
+          
+              <h3>
+                <a href="#" class="blog-title">TWS shipments grew 34% YoY in 2023, boAt continues to lead the market in India </a>
+              </h3>
+          
+              <p class="blog-meta">
+                 <time datetime="2022-03-15">Feb 15, 2024</time>
+              </p>
+          
+            </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Brand directory</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">Mobiles :</h3>
+
+          <a href="#" class="footer-category-link">Apple</a>
+          <a href="#" class="footer-category-link">Oneplus</a>
+          <a href="#" class="footer-category-link">Xiaomi</a>
+          <a href="#" class="footer-category-link">Oppo</a>
+          <a href="#" class="footer-category-link">Vivo</a>
+          <a href="#" class="footer-category-link">Realme</a>
+
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Electronics :</h3>
+        
+          <a href="#" class="footer-category-link">Laptops</a>
+          <a href="#" class="footer-category-link">Televisions</a>
+          <a href="#" class="footer-category-link">Air Conditioner</a>
+          <a href="#" class="footer-category-link">Washing Machines</a>
+          <a href="#" class="footer-category-link">Refrigerator</a>
+        
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Accessories :</h3>
+        
+          <a href="#" class="footer-category-link">Audio</a>
+          <a href="#" class="footer-category-link">Powerbanks</a>
+          <a href="#" class="footer-category-link">Pendrives</a>
+          <a href="#" class="footer-category-link">HDDs</a>
+          <a href="#" class="footer-category-link">Smartwatches</a>
+          <a href="#" class="footer-category-link">SSDs</a>
+          <a href="#" class="footer-category-link">bracelets</a>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Mobiles</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Electronic</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Smartwatches</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Audio</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Air Conditioner</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Delivery</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              
+             MADE with ♥ in INDIA
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">(123) 456-7896</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">example@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">Karishma and Anchal</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
